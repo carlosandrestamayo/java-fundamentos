@@ -51,7 +51,7 @@ Producto p1 = new Producto();
 
 Son las características del objeto.
 
-### 🔹 Ejemplo
+###     🔹 Ejemplo
 ```java
 String nombre;
 double precio;
