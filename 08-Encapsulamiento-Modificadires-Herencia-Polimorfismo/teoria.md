@@ -245,7 +245,9 @@ class Animal {
         System.out.println("El animal hace un sonido");
     }
 }
+```
 
+```java
 class Perro extends Animal {
 
     void ladrar() {
