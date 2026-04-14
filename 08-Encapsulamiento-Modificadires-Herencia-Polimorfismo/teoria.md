@@ -279,7 +279,7 @@ Una subclase hereda:
 
 ⚠️ NO se hereda:
 
--Constructores directamente
+- Constructores directamente
 - Atributos private (no accesibles directamente)
 
 ### 🔑 5. USO DE `super`
