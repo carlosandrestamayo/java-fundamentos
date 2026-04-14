@@ -383,7 +383,8 @@ class Vehiculo {
         System.out.println("Marca: " + marca);
     }
 }
-
+```
+```java
 class Moto extends Vehiculo {
 
     int cilindrada;
@@ -399,7 +400,8 @@ class Moto extends Vehiculo {
         System.out.println("Cilindrada: " + cilindrada);
     }
 }
-
+```
+```java
 public class Main {
     public static void main(String[] args) {
 
@@ -495,7 +497,8 @@ class Animal {
         System.out.println("Sonido genérico");
     }
 }
-
+```
+```java
 class Perro extends Animal {
 
     @Override
@@ -503,7 +506,8 @@ class Perro extends Animal {
         System.out.println("Guau");
     }
 }
-
+```
+```java
 class Gato extends Animal {
 
     @Override
