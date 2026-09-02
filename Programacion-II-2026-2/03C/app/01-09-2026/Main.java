@@ -1,4 +1,5 @@
 import java.util.StringJoiner;
+import java.util.Scanner;
 
 public class Main {
 
@@ -59,8 +60,24 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] numeros = {5, 2, 8, 1, 3};
+        //int[] numeros = {5, 2, 8, 1, 3};
         //int[] numeros = {8, 5, 3, 2, 1};
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese el Tamaño:");
+        int size = sc.nextInt();
+
+        int [] numeros = new int[size];
+
+        for(int i = 0; i < size; i++){
+            System.out.printf("Ingrese numeros[%d]:",i);
+            numeros[i] = sc.nextInt();
+            //System.out.println();
+        }
+
+
+
 
         System.out.printf("Arreglo Original%n");
         System.out.println(formatList(numeros));
@@ -72,7 +89,7 @@ public class Main {
 
         for (int i = 0; i < numeros.length - 1; i++) {
 
-            for (int j = 0; j < numeros.length - 1; j++) {
+            for (int j = 0; j < numeros.length - 1 - i; j++) {
 
                 // Valores que se van a comparar
                 int valor1 = numeros[j];
