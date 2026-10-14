@@ -1,6 +1,6 @@
 package menu;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 import services.GestorFutbol;
 
 public class MenuPrincipal {
